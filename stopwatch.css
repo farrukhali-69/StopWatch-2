@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+#myh1{
+    font-size: 4rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(128, 128, 128);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 10px;
+    background-color: rgba(127, 255, 212, 0.479);
+}
+
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: 700;
+    color: rgb(222, 184, 135);
+    text-shadow: 2px 2px 2px rgb(184, 135, 11);
+    margin-bottom: 25px;
+}
+
+button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: background-color 1s ease;
+}
+
+#startbtn{
+    background-color: hsl(120, 100%, 45%);
+}
+#startbtn:hover{
+    background-color: hsl(120, 100%, 60%);
+}
+
+#stopbtn{
+    background-color: hsl(0, 97%, 40%)
+}
+#stopbtn:hover{
+    background-color: hsl(0, 97%, 60%)
+}
+
+#resetbtn{
+    background-color: hsl(240, 100%, 50%);
+}
+#resetbtn:hover{
+    background-color: hsl(240, 100%, 65%);
+}
